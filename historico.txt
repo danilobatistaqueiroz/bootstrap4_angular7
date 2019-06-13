@@ -1,0 +1,1000 @@
+  506  docker restart pedidos
+  507  sudo docker restart pedidos
+  508  docker ps
+  509  docker ps -a
+  510  docker images
+  511  docker start frosty_lehmann
+  512  synclient HorizEdgeScroll=1
+  513  gsettings set horiz-scroll-enabled "true"
+  514  gsettings set org.gnome.settings-daemon.peripherals.touchpad horiz-scroll-enabled "true"
+  515  dconf
+  516  docker ps
+  517  docker ps -a
+  518  docker exec -it pedidos bash
+  519  docker start pedidos
+  520  docker ps -a
+  521  sudo apt-get remove docker docker-engine docker.io containerd runc
+  522  sudo apt-get remove docker-ce
+  523  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+  524  sudo apt-key fingerprint 0EBFCD88
+  525  grep ^ /etc/apt/sources.list /etc/apt/sources.list.d/*
+  526  grep ^ /etc/apt/sources.list /etc/apt/sources.list.d/* | grep "docker"
+  527  grep ^ /etc/apt/sources.list /etc/apt/sources.list.d/* | grep "chrome"
+  528  grep ^ /etc/apt/sources.list /etc/apt/sources.list.d/*
+  529  grep ^ /etc/apt/sources.list /etc/apt/sources.list.d/* > lista.txt
+  530  pluma lista.txt
+  531  rm lista.txt
+  532  ls
+  533  lsb_release -a
+  534  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  535     $(lsb_release -cs) \
+  536     stable"
+  537  sudo apt-get update
+  538  sudo apt-get install docker-ce docker-ce-cli containerd.io
+  539  apt-cache madison docker-ce
+  540  sudo docker run hello-world
+  541  docker
+  542  docker images
+  543  docker rabbitmq start
+  544  docker start rabbitmq
+  545  docker ps -a
+  546  docker start pedidos
+  547  docker ps
+  548  sudo apt-get purge docker-ce
+  549  docker --version
+  550  docker run hello-world
+  551  docker images
+  552  docker ps
+  553  docker ps -a
+  554  docker start pedidos
+  555  docker create rabbitmq:3
+  556  docker ps -a
+  557  docker run -i -t rabbitmq:3 /bin/bash
+  558  exit
+  559  sudo su
+  560  exit
+  561  docker ps
+  562  ls
+  563  exit
+  564  exit
+  565  exit
+  566  docker ps -a
+  567  docker -ps -a | less
+  568  docker ps -a | less
+  569  docker ps -a | less --shift=2000
+  570  docker ps -a | less --width=2000
+  571  less --help
+  572  less -z 2000
+  573  less -z=2000
+  574  docker ps | less -z 2000
+  575  less --help
+  576  less -S, --chop-long-lines
+  577  less -S --chop-long-lines
+  578  docker ps | less -S --chop-long-lines
+  579  docker ps -a | less -S --chop-long-lines
+  580  docker ps -a | most
+  581  sudo apt install most
+  582  docker ps -a | most
+  583  exit
+  584  sublime2
+  585  history | grep "source"
+  586  source ~/.bashrc
+  587  sublime2
+  588  echo $PATH
+  589  source ~/.profile
+  590  echo $PATH
+  591  sublime2
+  592  ./configure
+  593  mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart 
+  594  -DinteractiveMode=false -DgroupId=com.jvmhub.tutorial -DartifactId=01-hibernate-conf
+  595  ls
+  596  ls -a
+  597  . ~/.setenv.sh
+  598  . ~/java/.setenv.sh
+  599  ls ~/java
+  600  . ~/java/setenv.sh
+  601  mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart 
+  602  exit
+  603  ls
+  604  mvn test
+  605  . ~/java/setenv.sh
+  606  mvn test
+  607  screen -X width -w 1000
+  608  screen -X width -w 1000 docker -ps
+  609  screen -X 
+  610  screen -X width -w 2000
+  611  docker ps -a | most
+  612  docker run -d -- hostname some-rabbit --name rabbit -p 8080:15672 -p 5672:5672 -p 25676:25676 rabbitmq:3-management
+  613  docker ps -a | most
+  614  docker run -d -- hostname my-rabbit --name rabbitmq -p 8080:15672 -p 5672:5672 -p 25676:25676 rabbitmq:3-management
+  615  docker run -d --hostname my-rabbit --name rabbitmq -p 8080:15672 -p 5672:5672 -p 25676:25676 rabbitmq:3-management
+  616  docker ps -a | most
+  617  docker run -d --hostname my-rabbit --name rabbitmq -p 8080:15672 -p 5672:5672 -p 25676:25676 rabbitmq:3-management
+  618  docker ps
+  619  docker ps | most
+  620  sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  621  sudo chmod +x /usr/local/bin/docker-compose
+  622  docker-compose --version
+  623  ls
+  624  mkdir python
+  625  cd python/
+  626  mkdir flaskredis
+  627  cd flaskredis/
+  628  pluma app.py
+  629  sublime_text app.py
+  630  ls
+  631  source ~/.profile
+  632  sublime2 app.py
+  633  exit
+  634  screen -X width -w 1000 docker -ps
+  635  screen -X width -w 1000 docker
+  636  screen -X width -w 1000
+  637  screen
+  638  exit
+  639  docker ps
+  640  echo $INPUTRC
+  641  ls /etc/inputrc
+  642  pluma /etc/inputrc
+  643  sudo pluma /etc/inputrc
+  644  docker ps
+  645  terminator
+  646  dpkg --print-avail terminator
+  647  apt-cache show terminator
+  648  docker ps -a
+  649  apt-cache show screen
+  650  sudo apt-get install screen -y
+  651  screen -X width -w 1000
+  652  screen
+  653  exit
+  654  docker ps -a
+  655  docker ps -a | most
+  656  clear
+  657  docker pull postgres
+  658  docker pull dpage/pgadmin4
+  659  docker network create --driver bridge postgres-network
+  660  docker run --name teste-postgres --network=postgres-network -e "POSTGRES_PASSWORD=Postgres2018!" -p 5432:5432 -v /home/renatogroffe/Desenvolvimento/PostgreSQL:/var/lib/postgresql/data -d postgres
+  661  docker ps
+  662  docker ps | most
+  663  docker ps -a | most
+  664  docker pull postgres
+  665  docker run --name teste-pgadmin --network=postgres-network -p 15432:80 -e "PGADMIN_DEFAULT_EMAIL=danilobatistaqueiroz@gmail.com" -e "PGADMIN_DEFAULT_PASSWORD=PgAdmin2019!" -d dpage/pgadmin4
+  666  pwd
+  667  çs
+  668  ls
+  669  cd labs
+  670  ls
+  671  mkdir DockerCompose
+  672  cd DockerCompose/
+  673  mkdir PostgreSQL
+  674  ls
+  675  cd ..
+  676  ls
+  677  cd DockerCompose/
+  678  ls
+  679  cd PostgreSQL/
+  680  ls
+  681  exit
+  682  docker ps
+  683  docker ps | less
+  684  docker ps | less --shift=1000
+  685  docker ps | less --shift=10
+  686  docker ps | less --window=1000
+  687  screen -X width -w 1000
+  688  lsb_release -a
+  689  sudo add-apt-repository ppa:gnome-terminator
+  690  sudo apt-get update
+  691  sudo apt-get install terminator
+  692  terminator
+  693  docker ps -a | most
+  694  docker exec -it pedidos bash
+  695  docker start -it pedidos bash
+  696  docker start -i -t pedidos bash
+  697  docker start pedidos
+  698  history
+  699  docker run -i -t pedidos /bin/bash
+  700  docker run -i -t mariadb /bin/bash
+  701  exit
+  702  nautilus
+  703  gnome-open
+  704  xdg-open
+  705  xdg-open .
+  706  docker image ls
+  707  docker image ls | most
+  708  docker-compose down
+  709  ls
+  710  cd python
+  711  ls
+  712  cd flaskredis/
+  713  ls
+  714  docker-compose down
+  715  cd python
+  716  cd flaskredis/
+  717  ls
+  718  docker-compose up
+  719  docker-compose down
+  720  cd python
+  721  ls
+  722  cd flaskrabbit
+  723  ls
+  724  docker-compose down
+  725  ls
+  726  cd ..
+  727  cd flaskredis/
+  728  docker-compose down
+  729  pip freez requirements.txt
+  730  docker image ls
+  731  docker image ls | most
+  732  docker inspect 6902851ae42b
+  733  docker-compose exec flaskredis bash
+  734  cd python
+  735  ls
+  736  cd flaskredis
+  737  docker-compose exec flaskredis bash
+  738  docker-compose exec web bash
+  739  ls
+  740  pip install -r requirements.txt 
+  741  cd /code
+  742  ls
+  743  cd ..
+  744  cd ..
+  745  ls
+  746  cd python/
+  747  cd flaskredis/
+  748  docker-compose exec web bash
+  749  docker-compose exec -it web bash
+  750  docker-compose exec -it web_1 bash
+  751  docker-compose exec web_1 bash
+  752  docker-compose exec flaskredis_web_1 bash
+  753  docker-compose exec -it flaskredis_web_1 bash
+  754  docker-compose exec -it web bash
+  755  docker-compose exec web bash
+  756  docker-compose exec web sh
+  757  ls
+  758  vi requirements.txt 
+  759  ls
+  760  rm requirements.txt 
+  761  ls
+  762  docker-compose exec web sh
+  763  ls
+  764  docker-compose exec web sh
+  765  docker-compose run web env
+  766  export FLASK_DEBUG=1
+  767  docker-compose exec web sh
+  768  ls
+  769  docker-compose exec web sh
+  770  docker ps
+  771  docker ps | most
+  772  docker-compose exec web sh
+  773  docker-compose exec rabbit sh
+  774  docker-compose exec rabbitmq sh
+  775  docker-compose exec rabbit_1 sh
+  776  docker-compose exec web sh
+  777  cd python
+  778  cd flaskredis/
+  779  docker-compose up
+  780  ls
+  781  docker ps -a |most
+  782  docker ps -a | less
+  783  docker ps -a | more
+  784  docker images -a
+  785  docker ps -a
+  786  docker rm 884989124f7c
+  787  docker ps -a | most
+  788  docker-compose up
+  789  docker ps -a | most
+  790  docker ps -a | more
+  791  docker images -a
+  792  docker rmi 6902851ae42b
+  793  docker rm 8125d8fabbb0
+  794  docker rmi 6902851ae42b
+  795  docker-compose up
+  796  docker images -a
+  797  docker ps -a | more
+  798  docker ps -a | most
+  799  docker rmi e4cac6be723a
+  800  docker rm bf44646e398d
+  801  docker rmi e4cac6be723a
+  802  docker-compose up
+  803  ls StarUML*
+  804  ./StarUML-3.1.0-x86_64.AppImage
+  805  sudo chmod +x StarUML-3.1.0-x86_64.AppImage
+  806  ./StarUML-3.1.0-x86_64.AppImage
+  807  ./opera
+  808  exit
+  809  history | grep "xmox"
+  810  history | grep "nmcli"
+  811  nmcli d wifi list
+  812  history | grep "xmox"
+  813  nmcli d wifi list
+  814  history | grep "xmox"
+  815  nmcli con up CERC-GUEST
+  816  nmcli con up "CERC-GUEST"
+  817  nmcli con up 'CERC-GUEST"
+  818  q
+  819  exit
+  820  quit
+  821  nmcli con up "CERC-GUEST'
+  822  nmcli con up 'CERC-GUEST'
+  823  nmcli d wifi list
+  824  nmcli con up CERC-GUEST
+  825  nmcli con up "CERC-GUEST"
+  826  nmcli con up "CERC\-GUEST"
+  827  nmcli con up
+  828  nmcli con up CERC-GUEST
+  829  nmcli con up CERCGUEST
+  830  nmcli d wifi list
+  831  nmcli con up pmao
+  832  nmcli con up PMAO
+  833  nmcli d wifi list
+  834  nmcli con up CERC-CORP
+  835  nmcli con CERC-CORP
+  836  nmcli
+  837  nmcli --help
+  838  nmcli c list
+  839  nmcli c --help
+  840  nmcli c show
+  841  nmcli c reload
+  842  nmcli c up
+  843  nmcli c up CERC-GUEST
+  844  shutdown -r now
+  845  sudo iwlist wlan0 scanning
+  846  sudo iwlist wlan1 scanning
+  847  sudo iwlist wlan2 scanning
+  848  sudo iwlist wlp12s0 scanning
+  849  nmcli d connect CERC-GUEST
+  850  nmcli d connect 'CERC-GUEST'
+  851  nmcli c up id CERC-GUEST
+  852  nmcli nm wifi on
+  853  nmcli d connect
+  854  nmcli nm wifi on 19
+  855  nmcli d connect 19
+  856  nmcli d connect CERC-GUEST
+  857  nmcli c up id "CERC-GUEST"
+  858  nmcli c  id "CERC-GUEST"
+  859  nmcli c "CERC-GUEST"
+  860  sudo nmcli dev wifi con "CERC-GUEST"
+  861  sudo nmcli dev wifi con "CERC-GUEST" password CERCGUEST@!
+  862  sudo nmcli dev wifi con "CERC-GUEST" password CercGuest@!
+  863  ls
+  864  mkdir cerc
+  865  cd cerc
+  866  ls
+  867  git clone https://git.cerc.inf.br/codus/portal-ativos-financeiros
+  868  . ../setenv.sh
+  869  mvn install
+  870  ls
+  871  cd portal-ativos-financeiros/
+  872  ls
+  873  git status
+  874  git branch
+  875  ls
+  876  cd ..
+  877  ls
+  878  cd ..
+  879  cd cerc
+  880  cd portal-ativos-financeiros/
+  881  ls
+  882  cd portal-ativos-financeiros/
+  883  ls
+  884  git branch
+  885  ls
+  886  . ~/setenv.sh
+  887  mvn install
+  888  mvn install CERC
+  889  mvn install -PCERC
+  890  mvn compile -f "/home/essence/cerc/portal-ativos-financeiros/pom.xml"
+  891  java -jar ./lombok-1.18.2.jar
+  892  mvn install
+  893  docker ps
+  894  docker ps | most
+  895  gconftool-2 --type=bool --set /apps/nautilus/preferences/always_use_location_entry True
+  896  gconftool-2 --type=bool --set /apps/nautilus/preferences/always_use_location_entry false
+  897  gconftool-2 --type=bool --set /apps/nautilus/preferences/always_use_location_entry False
+  898  top
+  899  sudo apt-get install xdotool
+  900  xdotool search --name "~cerc/login" set_window --name "LoginApp"
+  901  xdotool search --name "~cerc/login-app/src/app/login/login.component.html(login-app)-Sublime Text(UNREGISTERED)" set_window --name "LoginApp"
+  902  ls
+  903  top
+  904  wmctrl -l
+  905  sudo apt install wmctrl -y
+  906  wmctrl -l
+  907  xdotool search --name "~/cerc/login-app/src/app/login/login.component.html (login-app) - Sublime Text (UNREGISTERED)" set_window --name "LoginApp"
+  908  xdotool search --onlyvisible --pid 0x03206723 --name "LoginApp" set_window --name "LoginApp"
+  909  xdotool search --name "~/cerc/login-app/src/app/login/login.component.html (login-app) - Sublime Text (UNREGISTERED)" set_window --name "LoginApp"
+  910  wmctrl -l | grep "login-app"
+  911  wmctrl -l | grep "login-app" | awk '{ print $1 }'
+  912  xprop -id "$(wmctrl -l | grep "login-app" | awk '{ print $1 }')" -set WM_NAME "LoginApp"
+  913  sudo xprop -id "$(wmctrl -l | grep "login-app" | awk '{ print $1 }')" -set WM_NAME "LoginApp"
+  914  sudo xprop -id "$(wmctrl -l | grep "login-app" | awk '{ print $1 }')" -set WM_NAME "LoginApp2"
+  915  xprop -id "$(wmctrl -l | grep "login-app" | awk '{ print $1 }')" -set WM_NAME "LoginApp2"
+  916  xdotool search --onlyvisible --pid 0x03206723 --name "LoginApp" set_window --name "LoginApp3"
+  917  xprop -id "$(wmctrl -l | grep "cerc" | awk '{ print $1 }')" -set WM_NAME "LoginApp2"
+  918  wmctrl -l | grep "cerc" | awk '{ print $1 }'
+  919  wmctrl -l | grep "[cerc]" | awk '{ print $1 }'
+  920  wmctrl -l | grep "System Monitor" | awk '{ print $1 }'
+  921  xprop -id "$(wmctrl -l | grep "System Monitor" | awk '{ print $1 }')" -set WM_NAME "Lo2"
+  922  sudo apt install gnome-shell-extensions
+  923  sudo apt install chrome-gnome-shell -y
+  924  ls .local
+  925  ls .local/share
+  926  ls .local/share/gnome-shell
+  927  mkdir -p .local/share/gnome-shell/extensions
+  928  ls Downloads/
+  929  exit
+  930  ps -o pid,user,%mem,command ax | sort -b -k3 -r
+  931  ps -o pid,user,%mem,command ax | sort -b -k3 -r | most
+  932  sudo pmap 917
+  933  reset
+  934  sudo pmap 917
+  935  ps aux
+  936  smem
+  937  sudo apt install smem
+  938  smem
+  939  ls /var
+  940  ls /var/tmp
+  941  ./eq.sh
+  942  chmod +x ./eq.sh
+  943  ./eq.sh
+  944  docker ps -a | most
+  945  docker ps -a | less
+  946  docker ps -a | more
+  947  docker ps -a | grep "postgres" | more 
+  948  docker run 6bc8fe7e34a4
+  949  docker run teste-postgres
+  950  docker ps -a | grep "postgres" | most
+  951  docker run flaskredis_postgres_1
+  952  history | grep "docker"
+  953  ls
+  954  cd cerc
+  955  ls
+  956  git clone https://github.com/cornflourblue/angular-7-role-based-authorization-example role-auth
+  957  mv role-auth roleauth
+  958  cd roleauth/
+  959  ls
+  960  npm init
+  961  npm install
+  962  ls
+  963  vi package.json
+  964  ls -a
+  965  caja .
+  966  npm start
+  967  mvn clean install
+  968  history | grep "java -jar"
+  969  java -jar target/spring-jwt-1.0-SNAPSHOT.war
+  970  mvn clean install
+  971  java -jar target/spring-jwt-1.0-SNAPSHOT.war
+  972  mvn clean install
+  973  java -jar target/spring-jwt-1.0-SNAPSHOT.war
+  974  mvn clean install
+  975  mvn clean install
+  976  java -jar target/spring-jwt-1.0-SNAPSHOT.war
+  977  java -jar target/spring-jwt-1.0-SNAPSHOT.war -Dagentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8000
+  978  java -jar target/spring-jwt-1.0-SNAPSHOT.war -Dagentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8070
+  979  java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar target/spring-jwt-1.0-SNAPSHOT.war
+  980  mvn clean install
+  981  java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar target/spring-jwt-1.0-SNAPSHOT.war
+  982  mvn clean install
+  983  java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar target/spring-jwt-1.0-SNAPSHOT.war
+  984  mvn clean install
+  985  java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar target/spring-jwt-1.0-SNAPSHOT.war
+  986  mvn clean install
+  987  java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar target/spring-jwt-1.0-SNAPSHOT.war
+  988  mvn clean install
+  989  java -jar target/spring-jwt-1.0-SNAPSHOT.war
+  990  mvn clean install; java -jar target/spring-jwt-1.0-SNAPSHOT.war
+  991  java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar target/spring-jwt-1.0-SNAPSHOT.war
+  992  mvn clean install
+  993  java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar target/spring-jwt-1.0-SNAPSHOT.war
+  994  mvn clean install
+  995  java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar target/spring-jwt-1.0-SNAPSHOT.war
+  996  reset
+  997  java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar target/spring-jwt-1.0-SNAPSHOT.war
+  998  reset
+  999  mvn clean install
+ 1000  java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar target/spring-jwt-1.0-SNAPSHOT.war
+ 1001  mvn clean install
+ 1002  java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar target/spring-jwt-1.0-SNAPSHOT.war
+ 1003  mvn clean install; java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar target/spring-jwt-1.0-SNAPSHOT.war
+ 1004  history | grep "ng serve"
+ 1005  ./node_modules/@angular/cli/bin/ng serve
+ 1006  ls
+ 1007  cd src
+ 1008  ls
+ 1009  cd ..
+ 1010  ./node_modules/@angular/cli/bin/ng install
+ 1011  history | grep "ng"
+ 1012  ls
+ 1013  ./node_modules/@angular/cli/bin/ng serve
+ 1014  history | grep "ng"
+ 1015  node_modules/@angular/cli/bin/ng g c list-roles
+ 1016  node_modules/@angular/cli/bin/ng g c add-role
+ 1017  node_modules/@angular/cli/bin/ng g c edit-role
+ 1018  ./node_modules/@angular/cli/bin/ng serve
+ 1019  cd java/
+ 1020  ls
+ 1021  cd ExecuteQuery/
+ 1022  ls
+ 1023  ./eq.sh
+ 1024  docker-compose up
+ 1025  ./configure kde4
+ 1026  sudo apt-get install meld
+ 1027  ls
+ 1028  cd cerc
+ 1029  ls
+ 1030  cd spring-jwt
+ 1031  ls
+ 1032  history
+ 1033  mvn clean install; java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar target/spring-jwt-1.0-SNAPSHOT.war
+ 1034  cd ..
+ 1035  cd cerc-seguros-front/spring
+ 1036  mvn clean install
+ 1037  ls target
+ 1038  mvn clean install
+ 1039  ls target
+ 1040  java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar target/spring-api-1.0-SNAPSHOT.war
+ 1041  mvn clean install; java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar target/spring-api-1.0-SNAPSHOT.war
+ 1042  java -jar target/spring-api-1.0-SNAPSHOT.war
+ 1043  mvn clean install; java -jar target/spring-api-1.0-SNAPSHOT.war
+ 1044  ls
+ 1045  cd java
+ 1046  ls
+ 1047  cd executeQuery/
+ 1048  ls
+ 1049  ./eq.sh
+ 1050  sudo apt-get install yarn
+ 1051  yarn --version
+ 1052  ls
+ 1053  cd java
+ 1054  ls
+ 1055  mv ExecuteQuery/ executeQuery
+ 1056  cd executeQuery/
+ 1057  ls
+ 1058  ./eq.sh
+ 1059  cd ..
+ 1060  ls
+ 1061  cd cerc
+ 1062  ls
+ 1063  git clone https://git.cerc.inf.br/cerc-seguros/cerc-seguros-front.git
+ 1064  ls
+ 1065  cd cerc-seguros-front/
+ 1066  ls
+ 1067  git branch
+ 1068  git branch -r
+ 1069  git checkout --track origin/dev
+ 1070  git branch
+ 1071  ls
+ 1072  git status
+ 1073  git add .
+ 1074  git status
+ 1075  git reset spring/src/main/resources/acript.sql
+ 1076  git reset .
+ 1077  git status
+ 1078  git add .
+ 1079  git statu
+ 1080  git status
+ 1081  git commit -m "crud usuarios e perfis"
+ 1082  git push origin dev
+ 1083  ls
+ 1084  cd spring
+ 1085  ls
+ 1086  cd ..
+ 1087  ls
+ 1088  cd angular
+ 1089  ls
+ 1090  history | grep "ng serve"
+ 1091  ./node_modules/@angular/cli/bin/ng serve
+ 1092  node_modules/@angular/cli/bin/ng g c edit-menu
+ 1093  node_modules/@angular/cli/bin/ng g c list-menu
+ 1094  node_modules/@angular/cli/bin/ng g c add-menu
+ 1095  ./node_modules/@angular/cli/bin/ng serve
+ 1096  node_modules/@angular/cli/bin/ng g c custom-menu
+ 1097  ./node_modules/@angular/cli/bin/ng serve
+ 1098  npm install --save @angular/material @angular/cdk @angular/animations
+ 1099  ./node_modules/@angular/cli/bin/ng serve
+ 1100  ls -a
+ 1101  ls node_modules/
+ 1102  ls node_modules/
+ 1103  ls
+ 1104  ng serve
+ 1105  ./node_modules/@angular/cli/bin/ng serve
+ 1106  npm install @angular/cli
+ 1107  ./node_modules/@angular/cli/bin/ng serve
+ 1108  ls ./node_modules/@angular/cli/bin
+ 1109  ls ./node_modules/@angular/
+ 1110  npm install --save-dev @angular-devkit/build-angular
+ 1111  ./node_modules/@angular/cli/bin/ng serve
+ 1112  npm update
+ 1113  ./node_modules/@angular/cli/bin/ng serve
+ 1114  npm install --save-dev @angular-devkit/build-angular
+ 1115  ./node_modules/@angular/cli/bin/ng serve
+ 1116  npm uninstall @angular/cli
+ 1117  npm cache verify
+ 1118  npm install @angular/cli@next
+ 1119  ./node_modules/@angular/cli/bin/ng serve
+ 1120  yarn add @angular-devkit/build-angular --dev
+ 1121  yarn add @angular-devkit/build-angular
+ 1122  yarn 
+ 1123  yarn --help
+ 1124  yarn
+ 1125  sudo apt remove cmdtest
+ 1126  yarn --version
+ 1127  yarn
+ 1128  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+ 1129  sudo apt install curl -y
+ 1130  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+ 1131  echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+ 1132  yarn
+ 1133  sudo apt-get update && sudo apt-get install yarn
+ 1134  yarn
+ 1135  sudo apt-get install nodejs
+ 1136  ls
+ 1137  cd cd java
+ 1138  cd java
+ 1139  ls
+ 1140  cd executeQuery/
+ 1141  ls
+ 1142  ./eq.sh
+ 1143  exit
+ 1144  sudo netstat -tulpn | grep LISTEN
+ 1145  sudo netstat -tulpn
+ 1146  printf '\e[3J'
+ 1147  printf "\033c"
+ 1148  sudo netstat -tulpn
+ 1149  printf "\033c"
+ 1150  sudo netstat -tulpn
+ 1151  printf "\033c"
+ 1152  sudo netstat -tulpn
+ 1153  ls
+ 1154  cd cerc
+ 1155  ls
+ 1156  cd cerc-seguros-front/
+ 1157  ls
+ 1158  ls -a
+ 1159  git status
+ 1160  git add .
+ 1161  git commit -m "cadastro de menus"
+ 1162  git push origin master
+ 1163  git status
+ 1164  git log -3
+ 1165  git push origin dev
+ 1166  git log -3
+ 1167  set
+ 1168  export
+ 1169  env
+ 1170  env | grep "node"
+ 1171  env | grep "Node"
+ 1172  node --version
+ 1173  sudo apt-get update && sudo apt-get install yarn
+ 1174  yarn
+ 1175  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+ 1176  ls
+ 1177  echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+ 1178  ls /opt
+ 1179  sudo apt-get update && sudo apt-get install yarn
+ 1180  yarn --version
+ 1181  sudo apt install cmdtest -y
+ 1182  ls
+ 1183  npm install -g yarn
+ 1184  sudo apt install npm -y
+ 1185  npm install -g yarn
+ 1186  sudo npm install -g yarn
+ 1187  yarn --version
+ 1188  yarn add @angular-devkit/build-angular --dev
+ 1189  ./node_modules/@angular/cli/bin/ng serve
+ 1190  history | grep "printf"
+ 1191  printf "\0037c"
+ 1192  printf '\0037c'
+ 1193  printf '\037c'
+ 1194  printf '\033c'
+ 1195  ./node_modules/@angular/cli/bin/ng serve
+ 1196  node --version
+ 1197  nodejs --version
+ 1198  ng --version
+ 1199  ng serve
+ 1200  ./node_modules/@angular/cli/bin/ng --version
+ 1201  nodejs --version
+ 1202  sudo apt-get install curl python-software-properties
+ 1203  curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+ 1204  sudo apt-get install nodejs 
+ 1205  grep ^ /etc/apt/sources.list /etc/apt/sources.list.d/*
+ 1206  grep ^ /etc/apt/sources.list /etc/apt/sources.list.d/* | grep "deb.node"
+ 1207  curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+ 1208  sudo apt-get install -y nodejs
+ 1209  sudo add-apt-repository -y -r ppa:chris-lea/node.js
+ 1210  sudo rm -f /etc/apt/sources.list.d/chris-lea-node_js-*.list
+ 1211  sudo rm -f /etc/apt/sources.list.d/chris-lea-node_js-*.list.save
+ 1212  curl -sSL https://deb.nodesource.com/gpgkey/nodesource.gpg.key | sudo apt-key add -
+ 1213  curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+ 1214  sudo apt-get update
+ 1215  sudo apt-get install nodejs
+ 1216  sudo apt remove nodejs
+ 1217  sudo apt-cache policy nodejs
+ 1218  cd ~
+ 1219  curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
+ 1220  ls
+ 1221  vi nodesource_setup.sh 
+ 1222  sudo bash nodesource_setup.sh
+ 1223  sudo apt-cache policy nodejs
+ 1224  sudo apt install nodejs
+ 1225  node --versiion
+ 1226  node --version
+ 1227  sudo apt remove nodejs
+ 1228  ls
+ 1229  rm nodesource_setup.sh 
+ 1230  ls
+ 1231  rm -r node
+ 1232  ls
+ 1233  curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+ 1234  ls
+ 1235  ls -a
+ 1236  sudo apt-get install nodejs
+ 1237  sudo apt remove nodejs
+ 1238  ls /home
+ 1239  ls /root
+ 1240  sudo ls /root
+ 1241  sudo ls /root -a
+ 1242  ls /etc/apt
+ 1243  VERSION=node_10.x
+ 1244  DISTRO="$(lsb_release -s -c)"
+ 1245  echo "deb https://deb.nodesource.com/$VERSION $DISTRO main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+ 1246  echo "deb-src https://deb.nodesource.com/$VERSION $DISTRO main" | sudo tee -a /etc/apt/sources.list.d/nodesource.list
+ 1247  sudo apt-get update
+ 1248  sudo apt-cache policy nodejs
+ 1249  sudo apt-get install nodejs
+ 1250  node --version
+ 1251  npm --version
+ 1252  npm install -g npm@latest
+ 1253  sudo npm install -g npm@latest
+ 1254  npm --version
+ 1255  cd cerc/
+ 1256  ls
+ 1257  cd cerc-seguros-front/
+ 1258  ls
+ 1259  cd angular/
+ 1260  ls
+ 1261  ng serve
+ 1262  ./node_modules/@angular/cli
+ 1263  ls ./node_modules/@angular/cli
+ 1264  ls ./node_modules/@angular/bin
+ 1265  ls ./node_modules/@angular/
+ 1266  ls ./node_modules/@angular/cli/bin
+ 1267  ./node_modules/@angular/cli/bin/ng serve
+ 1268  ng config -g cli.packageManager yarn
+ 1269  npm install -g @angular/cli
+ 1270  sudo npm install -g @angular/cli
+ 1271  ng serve
+ 1272  ng update @angular/cli @angular/core
+ 1273  npm install @angular/cli
+ 1274  ng serve
+ 1275  npm install --save-dev @angular-devkit/build-angular
+ 1276  ng serve
+ 1277  npm i --only=dev
+ 1278  ng serve
+ 1279  npm install
+ 1280  ng serve
+ 1281  ng build
+ 1282  ng --version
+ 1283  npm audit fix --force
+ 1284  ng serve
+ 1285  ng update @angular/core
+ 1286  git
+ 1287  git status
+ 1288  git add .
+ 1289  git commit -m "edicao de menus"
+ 1290  git push origin dev
+ 1291  ng update @angular/core
+ 1292  ng update @angular/cli @angular/core --allow-dirty
+ 1293  ng serve
+ 1294  npm install -g typescript@latest
+ 1295  sudo npm install -g typescript@latest
+ 1296  ng serve
+ 1297  npm list -g
+ 1298  ng serve
+ 1299  sudo npm install -g typescript@3.4.9
+ 1300  sudo npm install -g typescript@3.4.8
+ 1301  sudo npm install -g typescript@3.4.5
+ 1302  ng serve
+ 1303  npm list -g
+ 1304  ts --version
+ 1305  tsc -v
+ 1306  ng serve
+ 1307  tsc -v
+ 1308  npm install typescript@3.4.5
+ 1309  ng serve
+ 1310  npm list -g
+ 1311  ng serve
+ 1312  java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar target/spring-api-1.0-SNAPSHOT.war
+ 1313  mvn clean install; java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar target/spring-api-1.0-SNAPSHOT.war
+ 1314  java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n -jar target/spring-api-1.0-SNAPSHOT.war
+ 1315  ls
+ 1316  cd python
+ 1317  ls
+ 1318  cd pypostgres
+ 1319  ls
+ 1320  docker-compose up
+ 1321  history
+ 1322  nmcli c up id xmox
+ 1323  nmcli dev wifi
+ 1324  sudo apt-get install wine
+ 1325  lscpu
+ 1326  wine
+ 1327  npm install
+ 1328  ng serve
+ 1329  printf '\033c'; ng serve
+ 1330  npm install
+ 1331  npm install --save-dev @angular/core@7.2.15
+ 1332  npm install --save-dev @angular/core@8.0.0
+ 1333  npm install --save-dev @angular/http@8.0.0
+ 1334  npm install --save-dev @angular/http@8.0.0-beta.10
+ 1335  npm i angular-in-memory-web-api@0.8.0
+ 1336  printf '\033c'; ng serve
+ 1337  sudo dpkg --add-architecture i386
+ 1338  wget -nc https://dl.winehq.org/wine-builds/Release.key
+ 1339  ls
+ 1340  sudo apt-key add Release.key
+ 1341  ls
+ 1342  sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/
+ 1343  sudo apt-get install --install-recommends winehq-stable
+ 1344  lscpu
+ 1345  sudo apt install wine64
+ 1346  wine WinMergeU.exe
+ 1347  ng serve
+ 1348  cd labs
+ 1349  ls
+ 1350  cd angular
+ 1351  ls
+ 1352  ng new material-tuto
+ 1353  cd material-tuto/
+ 1354  ls
+ 1355  npm install @angular/material @angular/cdk
+ 1356  caja .
+ 1357  npm install hammerjs
+ 1358  npm install @angular/flex-layout@v5.0.0-beta.14 rxjs-compat
+ 1359  npm i @angular/flex-layout@8.0.0-beta.26
+ 1360  ng serve
+ 1361  wine procexp64.exe
+ 1362  wine procexp.exe
+ 1363  sudo wine procexp64.exe
+ 1364  vi /home/essence/.wine
+ 1365  wine
+ 1366  wine --help
+ 1367  ng serve
+ 1368  npm install --save ngx-mask
+ 1369  ng serve
+ 1370  ng g c head-side-bar --
+ 1371  ng g c head-side-bar --module=app
+ 1372  ng g c login-page --module=app
+ 1373  git status
+ 1374  git remote get-url origin
+ 1375  git branch
+ 1376  git branch -r
+ 1377  git branch l
+ 1378  git branch --r
+ 1379  git branch v
+ 1380  git branch r
+ 1381  git branch
+ 1382  git remote show origin
+ 1383  git config --get remote.origin.url
+ 1384  git status
+ 1385  git remote -v
+ 1386  git ls-remote --get-url [REMOTE]
+ 1387  git branch -d r
+ 1388  git branch -d l
+ 1389  git branch -d v
+ 1390  git branch
+ 1391  ls
+ 1392  git add .
+ 1393  git status
+ 1394  ls
+ 1395  vi .gitignore 
+ 1396  git commit -m "first commit"
+ 1397  git remote add origin https://github.com/danilobatistaqueiroz/angular-material-tuto.git
+ 1398  git push -u origin master
+ 1399  git status
+ 1400  git log
+ 1401  git add .
+ 1402  git commit -m "algumas melhorias"
+ 1403  git push origin dev
+ 1404  git log
+ 1405  npm install --save ngx-cpf-cnpj
+ 1406  nm cli list
+ 1407  nmcli list
+ 1408  nmcli list wifi
+ 1409  nmcli dev wifi
+ 1410  nmcli dev wifi rescan
+ 1411  nmcli dev wifi
+ 1412  sudo iw dev wlan0 scan | grep SSID
+ 1413  sudo iw dev wlan1 scan | grep SSID
+ 1414  nmcli dev wifi list
+ 1415  sudo iwlist scan
+ 1416  nmcli c up id "xmox"
+ 1417  ng serve
+ 1418  npm uninstall --save ngx-cpf-cnpj
+ 1419  ng serve
+ 1420  npm install font-awesome --save
+ 1421  ng serve
+ 1422  ng g c sidenav-toggle --model=app
+ 1423  ng g c sidenav-toggle --module=app
+ 1424  ng serve
+ 1425  fdisk
+ 1426  lsdisk
+ 1427  fdisk --help
+ 1428  fdisk -l
+ 1429  sudo fdisk -l
+ 1430  sudo fdisk /dev/sdb
+ 1431  sudo fdisk /dev/sda
+ 1432  exit
+ 1433  ls target/
+ 1434  java -jar target/spring-api-1.0-SNAPSHOT.war
+ 1435  docker-compose up
+ 1436  nmcli dev wifi list
+ 1437  history | grep "nmcli"
+ 1438  nmcli c up id "xmox"
+ 1439  fdisk -l
+ 1440  sudo fdisk -l
+ 1441  sudo fdisk /dev/sda
+ 1442  mkswap /dev/sda2
+ 1443  sudo mkswap /dev/sda2
+ 1444  swapon /dev/sda2
+ 1445  sudo swapon /dev/sda2
+ 1446  vi /etc/fstab
+ 1447  sudo vi /etc/fstab
+ 1448  sudo nano /etc/fstab
+ 1449  ng serve
+ 1450  printf '\033c'
+ 1451  ng serve
+ 1452  ng serve
+ 1453  git status
+ 1454  git add .
+ 1455  git commit -m "fake-backend header-sidenav-footer"
+ 1456  git branc
+ 1457  git branch
+ 1458  git remove -v
+ 1459  git remove -l
+ 1460  git remote -l
+ 1461  git remote
+ 1462  ls
+ 1463  ls -a
+ 1464  ls .git -l
+ 1465  pluma .git/config
+ 1466  git push origin master
+ 1467  ng serve
+ 1468  git add .
+ 1469  git commit -m "login page"
+ 1470  git push origin master
+ 1471  history | grep "nmcli"
+ 1472  nmcli c up id "xmox"
+ 1473  ng serve
+ 1474  npm run build:dev
+ 1475  npm run start
+ 1476  npm i -D webpack-cli
+ 1477  npm run start
+ 1478  npm i --save-dev html-webpack-plugin
+ 1479  npm run start
+ 1480  npm install ts-loader --save-dev
+ 1481  npm run start
+ 1482  npm install angular2-template-loader --save-dev
+ 1483  npm run start
+ 1484  ng serve
+ 1485  git status
+ 1486  git add .
+ 1487  git commit -m "webpack"
+ 1488  git push origin master
+ 1489  ng serve
+ 1490  git add .
+ 1491  git commit -m "authentication, authorization"
+ 1492  git push origin master
+ 1493  exit
+ 1494  wine WinMergeU.exe
+ 1495  npm install
+ 1496  ng serve
+ 1497  npm install jquery --save
+ 1498  ng serve
+ 1499  ng serve
+ 1500  npm install
+ 1501  ng serve
+ 1502  git status
+ 1503  git branch
+ 1504  ng serve
+ 1505  history > historico.txt
